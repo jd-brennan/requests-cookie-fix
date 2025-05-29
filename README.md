@@ -1,5 +1,5 @@
 # requests-cookie-fix
-Monkey patch for Python requests package to parse cookies more correctly
+Monkey patch for Python requests package to parse cookies more correctly.
 
 If you use Python to call URLs in your Django app that require authentication, then it may fail because the auth cookies are not parsed correctly.
 
@@ -14,6 +14,7 @@ import requests_cookie_fix
 
 session = requests.Session()
 res = session.post(...)
+```
 
 ## Note:
 
